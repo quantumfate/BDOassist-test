@@ -16,6 +16,8 @@ class BossTimer(commands.Cog):
     def __init__(self, client):
         self.client = client
 
+    
+
 # Cog ending
 def setup(client):
     client.add_cog(BossTimer(client))

@@ -1,0 +1,149 @@
+{
+    "EU": {
+        "zone": "CET",
+        "monday": [
+            { "time": "00:15", "boss": ["Kutum", "Karanda"] },
+            { "time": "02:00", "boss": ["Karanda"] },
+            { "time": "05:00", "boss": ["Kzarka"] },
+            { "time": "09:00", "boss": ["Kzarka"] },
+            { "time": "12:00", "boss": ["Offin"] },
+            { "time": "16:00", "boss": ["Kutum"] },
+            { "time": "19:00", "boss": ["Nouver"] },
+            { "time": "22:15", "boss": ["Kzarka"] },
+            { "time": "23:15", "boss": [0] }
+        ],
+        "tuesday": [
+            { "time": "00:15", "boss": ["Karanda"] },
+            { "time": "02:00", "boss": ["Kutum"] },
+            { "time": "05:00", "boss": ["Kzarka"] },
+            { "time": "09:00", "boss": ["Nouver"] },
+            { "time": "12:00", "boss": ["Kutum"] },
+            { "time": "16:00", "boss": ["Nouver"] },
+            { "time": "19:00", "boss": ["Karanda"] },
+            { "time": "22:15", "boss": ["Garmoth"] },
+            { "time": "23:15", "boss": [0] }
+        ],
+        "wednesday": [
+            { "time": "00:15", "boss": ["Kutum", "Kzarka"] },
+            { "time": "02:00", "boss": ["Karanda"] },
+            { "time": "05:00", "boss": ["Kzarka"] },
+            { "time": "09:00", "boss": ["Karanda"] },
+            { "time": "12:00", "boss": [0] },
+            { "time": "16:00", "boss": ["Kutum", "Offin"] },
+            { "time": "19:00", "boss": ["Vell"] },
+            { "time": "22:15", "boss": ["Karanda", "Kzarka"] },
+            { "time": "23:15", "boss": ["Quint", "Muraka"] }
+        ],
+        "thursday": [
+            { "time": "00:15", "boss": ["Nouver"] },
+            { "time": "02:00", "boss": ["Kutum"] },
+            { "time": "05:00", "boss": ["Nouver"] },
+            { "time": "09:00", "boss": ["Kutum"] },
+            { "time": "12:00", "boss": ["Nouver"] },
+            { "time": "16:00", "boss": ["Kzarka"] },
+            { "time": "19:00", "boss": ["Kutum"] },
+            { "time": "22:15", "boss": ["Garmoth"] },
+            { "time": "23:15", "boss": [0] }
+        ],
+        "friday": [
+            { "time": "00:15", "boss": ["Kzarka", "Karanda"] },
+            { "time": "02:00", "boss": ["Nouver"] },
+            { "time": "05:00", "boss": ["Karanda"] },
+            { "time": "09:00", "boss": ["Kutum"] },
+            { "time": "12:00", "boss": ["Karanda"] },
+            { "time": "16:00", "boss": ["Nouver"] },
+            { "time": "19:00", "boss": ["Kzarka"] },
+            { "time": "22:15", "boss": ["Kutum", "Kzarka"] },
+            { "time": "23:15", "boss": [0] }
+        ],
+        "saturday": [
+            { "time": "00:15", "boss": ["Karanda"] },
+            { "time": "02:00", "boss": ["Offin"] },
+            { "time": "05:00", "boss": ["Nouver"] },
+            { "time": "09:00", "boss": ["Kutum"] },
+            { "time": "12:00", "boss": ["Nouver"] },
+            { "time": "16:00", "boss": ["Quint", "Muraka"] },
+            { "time": "19:00", "boss": ["Karanda", "Kzarka"] },
+            { "time": "22:15", "boss": [0] },
+            { "time": "23:15", "boss": [0] }
+        ],
+        "sunday": [
+            { "time": "00:15", "boss": ["Nouver", "Kutum"] },
+            { "time": "02:00", "boss": ["Kzarka"] },
+            { "time": "05:00", "boss": ["Kutum"] },
+            { "time": "09:00", "boss": ["Nouver"] },
+            { "time": "12:00", "boss": ["Kzarka"] },
+            { "time": "16:00", "boss": ["Vell"] },
+            { "time": "19:00", "boss": ["Garmoth"] },
+            { "time": "22:15", "boss": ["Kzarka", "Nouver"] },
+            { "time": "23:15", "boss": [0] }
+        ]
+    },
+
+    "JP": {
+        "zone": "JST",
+        "monday": [
+            { "time": "01:30", "boss": ["Kutum", "Karanda"] },
+            { "time": "11:00", "boss": ["Karanda"] },
+            { "time": "14:00", "boss": ["Kzarka"] },
+            { "time": "16:00", "boss": ["Kzarka"] },
+            { "time": "19:00", "boss": ["Offin"] },
+            { "time": "22:30", "boss": ["Kutum"] },
+            { "time": "23:00", "boss": ["Nouver"] }
+        ],
+        "tuesday": [
+            { "time": "01:30", "boss": ["Kutum", "Karanda"] },
+            { "time": "11:00", "boss": ["Karanda"] },
+            { "time": "14:00", "boss": ["Kzarka"] },
+            { "time": "16:00", "boss": ["Kzarka"] },
+            { "time": "19:00", "boss": ["Offin"] },
+            { "time": "22:30", "boss": ["Kutum"] },
+            { "time": "23:00", "boss": ["Nouver"] }
+        ],
+        "wednesday": [
+            { "time": "01:30", "boss": ["Kutum", "Karanda"] },
+            { "time": "11:00", "boss": ["Karanda"] },
+            { "time": "14:00", "boss": ["Kzarka"] },
+            { "time": "16:00", "boss": ["Kzarka"] },
+            { "time": "19:00", "boss": ["Offin"] },
+            { "time": "22:30", "boss": ["Kutum"] },
+            { "time": "23:00", "boss": ["Nouver"] }
+        ],
+        "thursday": [
+            { "time": "01:30", "boss": ["Kutum", "Karanda"] },
+            { "time": "11:00", "boss": ["Karanda"] },
+            { "time": "14:00", "boss": ["Kzarka"] },
+            { "time": "16:00", "boss": ["Kzarka"] },
+            { "time": "19:00", "boss": ["Offin"] },
+            { "time": "22:30", "boss": ["Kutum"] },
+            { "time": "23:00", "boss": ["Nouver"] }
+        ],
+        "friday": [
+            { "time": "01:30", "boss": ["Kutum", "Karanda"] },
+            { "time": "11:00", "boss": ["Karanda"] },
+            { "time": "14:00", "boss": ["Kzarka"] },
+            { "time": "16:00", "boss": ["Kzarka"] },
+            { "time": "19:00", "boss": ["Offin"] },
+            { "time": "22:30", "boss": ["Kutum"] },
+            { "time": "23:00", "boss": ["Nouver"] }
+        ],
+        "saturday": [
+            { "time": "01:30", "boss": ["Kutum", "Karanda"] },
+            { "time": "11:00", "boss": ["Karanda"] },
+            { "time": "14:00", "boss": ["Kzarka"] },
+            { "time": "16:00", "boss": ["Kzarka"] },
+            { "time": "19:00", "boss": ["Offin"] },
+            { "time": "22:30", "boss": ["Kutum"] },
+            { "time": "23:00", "boss": ["Nouver"] }
+        ],
+        "sunday": [
+            { "time": "01:30", "boss": ["Kutum", "Karanda"] },
+            { "time": "11:00", "boss": ["Karanda"] },
+            { "time": "14:00", "boss": ["Kzarka"] },
+            { "time": "16:00", "boss": ["Kzarka"] },
+            { "time": "19:00", "boss": ["Offin"] },
+            { "time": "22:30", "boss": ["Kutum"] },
+            { "time": "23:00", "boss": ["Nouver"] }
+        ]
+    }
+}
