@@ -1,22 +1,29 @@
 # bosstimer.py
 import os
-import discord
-import requests
 
+from discord.ext.commands import Cog
 from discord.ext import commands
 from dotenv import load_dotenv
 
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
-SCOPE = os.getenv('SLASH_SCOPE')
+
+client = commands.Bot(command_prefix='!')
 
 # Cog begin
-class BossTimer(commands.Cog):
+class Help(commands.Cog):
 
     def __init__(self, client):
         self.client = client
+        self.client.remove_command("help")
+
+
 
 # Cog ending
 def setup(client):
-    client.add_cog(BossTimer(client))
+    client.add_cog(Help(client))
+
+
+
+
 

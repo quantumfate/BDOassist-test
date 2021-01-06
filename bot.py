@@ -12,7 +12,6 @@ GUILD = os.getenv('DISCORD_GUILD')
 
 client = commands.Bot(command_prefix='!')
 
-#client = discord.Client()
 
 for filename in os.listdir('./cogs'):
     if filename.endswith('.py'):
@@ -55,10 +54,5 @@ async def _reload(ctx, extension):
     client.load_extension(f'cogs.{extension}')
     await ctx.send(embed=discord.Embed(title="Reloaded", color=0xb64bb3))
 
-# @bot.command(name='helping')
-# async def help_user(ctx):
-#     
-#     await ctx.send('I will help lol')
 
-#bot.run(TOKEN)
 client.run(TOKEN)
