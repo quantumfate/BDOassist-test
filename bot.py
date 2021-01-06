@@ -26,7 +26,12 @@ async def on_ready():
         f'{guild.name}(id: {guild.id})'
     )
 
-# Commands
+@client.event
+async def on_message(ctx):
+    if ctx.channel.id == 796304738567716886:
+        await client.process_commands(ctx)
+
+# Commands - Cod Moderation
 @client.command(aliases=['load'])
 @commands.has_permissions(administrator=True)
 async def _load(ctx, extension):
@@ -53,6 +58,7 @@ async def _reload(ctx, extension):
     client.unload_extension(f'cogs.{extension}')
     client.load_extension(f'cogs.{extension}')
     await ctx.send(embed=discord.Embed(title="Reloaded", color=0xb64bb3))
+
 
 
 client.run(TOKEN)
