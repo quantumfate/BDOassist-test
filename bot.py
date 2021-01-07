@@ -10,7 +10,7 @@ load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
 GUILD = os.getenv('DISCORD_GUILD')
 
-client = commands.Bot(command_prefix='!')
+client = commands.Bot(command_prefix='.')
 
 
 for filename in os.listdir('./cogs'):
@@ -20,6 +20,8 @@ for filename in os.listdir('./cogs'):
 @client.event
 async def on_ready():
     guild = discord.utils.get(client.guilds, name=GUILD) 
+
+    await client.change_presence(activity=discord.Game(name=".help"))
     
     print(
         f'{client.user} has connected to the following guild:\n'
