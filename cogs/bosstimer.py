@@ -34,8 +34,6 @@ class BossTimer(commands.Cog):
         
         for key in self.bossData['%s'%self.currentRegion]:
 
-            #currentTime = self.bossData['%s'%self.currentRegion][key][0]["time"]
-            #currentBoss = self.bossData['%s'%self.currentRegion][key][0]["boss"]
 
             if self.date.today().to_s == "thursday": # & self.time.today().to_s == currentTime
                 self.schedule.every(key).at("18:40").do(self._build_field(self, "thursday", "Kzarka"))
